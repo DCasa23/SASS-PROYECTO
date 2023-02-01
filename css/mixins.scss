@@ -1,0 +1,28 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin principal(){
+    padding: 0px;
+    margin: 0px;
+    height:80vh;
+    width: 100%;
+}
+@mixin cabecera(){
+    padding: 0px;
+    margin: 0px;
+    height:10vh;
+    width: 100%;
+    color: aqua;
+    background-color: rgb(80, 58, 58);
+}
+@mixin footer(){
+    padding: 0px;
+    margin: 0px;
+    height:10vh;
+    width: 100%;
+    color: aqua;
+    background-color: rgb(80, 58, 58);
+}

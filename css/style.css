@@ -1,0 +1,32 @@
+* {
+  border: red 2px solid; }
+
+body {
+  height: 100%; }
+
+header {
+  padding: 0px;
+  margin: 0px;
+  height: 10vh;
+  width: 100%;
+  color: aqua;
+  background-color: #503a3a; }
+
+.total {
+  padding: 0px;
+  margin: 0px;
+  height: 80vh;
+  width: 100%; }
+
+footer {
+  padding: 0px;
+  margin: 0px;
+  height: 10vh;
+  width: 100%;
+  color: aqua;
+  background-color: #503a3a; }
+
+.fotito {
+  width: 10vh; }
+
+/*# sourceMappingURL=style.css.map */

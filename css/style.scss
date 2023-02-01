@@ -1,0 +1,28 @@
+@import "mixins.scss";
+
+$colorbaltimore:#241773;
+$colortampa:#d50a0a;
+$colorcardinals:#a71930;
+$colordolphins:#008e97;
+$coloreagles:#004c54;
+$colorjaguars:#9f792c;
+  
+*{
+    border:red 2px solid;
+}
+body{
+    height: 100%;
+}
+
+header{
+@include cabecera();
+}
+.total{
+    @include principal();
+}
+footer{
+    @include footer();
+}
+.fotito{
+    width: 10vh;
+}
