@@ -1,32 +1,34 @@
 * {
-  border: red 2px solid; }
+  border: red 2px solid;
+}
 
 body {
-  height: 100%; }
+  height: 100%;
+}
 
 header {
   padding: 0px;
   margin: 0px;
-  height: 10vh;
+  max-height: 200px;
   width: 100%;
   color: aqua;
-  background-color: #503a3a; }
+  background-color: rgb(80, 58, 58);
+}
 
 .total {
   padding: 0px;
   margin: 0px;
   height: 80vh;
-  width: 100%; }
+  width: 100%;
+}
 
 footer {
   padding: 0px;
   margin: 0px;
-  height: 10vh;
+  max-height: 200px;
   width: 100%;
   color: aqua;
-  background-color: #503a3a; }
-
-.fotito {
-  width: 10vh; }
+  background-color: rgb(80, 58, 58);
+}
 
 /*# sourceMappingURL=style.css.map */

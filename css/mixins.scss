@@ -13,7 +13,7 @@
 @mixin cabecera(){
     padding: 0px;
     margin: 0px;
-    height:10vh;
+    max-height: 200px;
     width: 100%;
     color: aqua;
     background-color: rgb(80, 58, 58);
@@ -21,7 +21,7 @@
 @mixin footer(){
     padding: 0px;
     margin: 0px;
-    height:10vh;
+    max-height:200px;
     width: 100%;
     color: aqua;
     background-color: rgb(80, 58, 58);
