@@ -7,7 +7,6 @@
 @mixin principal(){
     padding: 0px;
     margin: 0px;
-    height:80vh;
     width: 100%;
 }
 @mixin cabecera(){
@@ -21,7 +20,8 @@
 @mixin footer(){
     padding: 0px;
     margin: 0px;
-    max-height:200px;
+    min-height:100px;
+    position:absolute;
     width: 100%;
     color: aqua;
     background-color: rgb(80, 58, 58);

@@ -1,6 +1,6 @@
-* {
-  border: red 2px solid; }
-
+/**{
+    border:red 2px solid;
+}*/
 body {
   height: 80%; }
 
@@ -15,22 +15,22 @@ header {
 .total {
   padding: 0px;
   margin: 0px;
-  height: 80vh;
   width: 100%; }
 
 footer {
   padding: 0px;
   margin: 0px;
-  max-height: 200px;
+  min-height: 100px;
+  position: absolute;
   width: 100%;
   color: aqua;
   background-color: #503a3a; }
 
 main {
-  min-height: 2200px; }
+  min-height: 2000px; }
 
 .izquierdo {
   background-color: #004c54;
-  min-height: 2200px; }
+  min-height: 2000px; }
 
 /*# sourceMappingURL=style.css.map */
