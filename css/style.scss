@@ -11,7 +11,7 @@ $colorjaguars:#9f792c;
     border:red 2px solid;
 }
 body{
-    height: 100%;
+    height: 80%;
 }
 
 header{
@@ -22,4 +22,11 @@ header{
 }
 footer{
     @include footer();
+}
+main{
+    min-height: 2000px;
+}
+.izquierdo{
+    background-color: $coloreagles;
+    min-height: 2000px;
 }
