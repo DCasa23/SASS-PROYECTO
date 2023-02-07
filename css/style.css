@@ -1,8 +1,10 @@
-/**{
-    border:red 2px solid;
-}*/
+* {
+  border: red 2px solid;
+}
+
 body {
-  height: 80%; }
+  height: 80%;
+}
 
 header {
   padding: 0px;
@@ -10,12 +12,14 @@ header {
   max-height: 200px;
   width: 100%;
   color: aqua;
-  background-color: #503a3a; }
+  background-color: rgb(80, 58, 58);
+}
 
 .total {
   padding: 0px;
   margin: 0px;
-  width: 100%; }
+  width: 100%;
+}
 
 footer {
   padding: 0px;
@@ -24,13 +28,16 @@ footer {
   position: absolute;
   width: 100%;
   color: aqua;
-  background-color: #503a3a; }
+  background-color: rgb(80, 58, 58);
+}
 
 main {
-  min-height: 2000px; }
+  min-height: 2000px;
+}
 
 .izquierdo {
   background-color: #004c54;
-  min-height: 2000px; }
+  min-height: 2000px;
+}
 
 /*# sourceMappingURL=style.css.map */
