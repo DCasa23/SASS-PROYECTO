@@ -17,14 +17,14 @@
     <header class="container-fluid">
         <header class="container-fluid border-bottom border-dark border-1">
             <div class="row d-flex flex-wrap align-items-center">
-                <div class="col-lg-2 d-none d-lg-block float-start align-items-center text-center px-0 py-0 "><img
+                <div class="col-lg-2 d-none d-lg-block float-start align-items-center text-center px-0 py-0 foto1"><img
                         class="bd-placeholder-img bd-placeholder-img-lg featurette image
                 img-fluid mx-auto;" src="img/nfl.png" style="max-width: 180px;"></div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 text-center align-self-center float-none ">
                     <h1>SuperBowl 2023</h1>
                     <h4>Equipos Presentes en la SemiFinal</h4>
                 </div>
-                <div class="col-2 d-none d-md-none d-lg-block float-start text-center p-0"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                <div class="col-2 d-none d-md-none d-lg-block float-start text-center p-0 foto2"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                 img-fluid mx-auto pt-lg-1;" src="img/nfl.png" style="max-width: 180px;"></div>
             </div>
         </header>
@@ -34,7 +34,7 @@
 
         <div class="row me-0">
             <nav class="col-2 float-start izquierdo">
-                <div class="col-12">Los Equipos de la liga
+                <div class="col-12 listaizquierdo"><span>Los Equipos de la Liga</span>
                     <ul class="list list-unstyled">
                         <li class="row"><a class="col-12 p-0" href="#Eagles">Philadelphia Eagles</a></li>
                         <li class="row"><a class="col-12 p-0" href="#Bills">Buffalo Bills</a></li>
@@ -53,20 +53,20 @@
                     </span> </div>
                 <div>
                     <ul class="list-unstyled">
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto3"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Eagles.png"></div>
-                            <div class="col-6 pt-3"><span id="Eagles">Philadelphia Eagles</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Eagles">Philadelphia Eagles</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -79,22 +79,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito1" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -102,20 +105,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto4"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Bills.png"></div>
-                            <div class="col-6 pt-3"><span id="Bills">Buffalo Bills</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Bills">Buffalo Bills</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -128,22 +131,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito2" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -151,20 +157,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto5"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Jaguars.png"></div>
-                            <div class="col-6 pt-3"><span id="Jaguars">Jacksonville Jaguars</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Jaguars">Jacksonville Jaguars</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -177,22 +183,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito3" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -200,20 +209,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto6"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Chiefs.png"></div>
-                            <div class="col-6 pt-3"><span id="Chiefs">Kansas City Chiefs</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Chiefs">Kansas City Chiefs</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -226,22 +235,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito4" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -249,20 +261,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto7"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Giants.png"></div>
-                            <div class="col-6 pt-3"><span id="Giants">New York Giants</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Giants">New York Giants</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -275,22 +287,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito5" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -298,20 +313,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto8"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Cowboys.png"></div>
-                            <div class="col-6 pt-3"><span id="Cowboys">Dallas Cowboys</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Cowboys">Dallas Cowboys</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -324,22 +339,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito6" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -347,20 +365,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto9"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/SF49Ers.png"></div>
-                            <div class="col-6 pt-3"><span id="SF49Ers">San Francisco 49ers</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo"id="SF49Ers">San Francisco 49ers</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -373,22 +391,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito7" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -396,20 +417,20 @@
                             </div>
                         </li>
                         <li class="border-top border-dark my-3 mx-5"></li>
-                        <li class="row">
-                            <div class="col-3 text-center"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
+                        <li class="row equipo m-0">
+                            <div class="col-3 text-center foto10"><img class="bd-placeholder-img bd-placeholder-img-lg featurette image
                         img-fluid mx-auto;" src="img/Bengals.png"></div>
-                            <div class="col-6 pt-3"><span id="Bengals">Cincinnati Bengals</span>
+                            <div class="col-5 pt-3"><span class="nombreEquipo" id="Bengals">Cincinnati Bengals</span>
                                 <ul class="pt-2">
-                                    <li class="my-2"><span>Sede:</span></li>
-                                    <li class="my-2"><span>Estadio:</span></li>
-                                    <li class="my-2"><span>SuperBowls:</span></li>
-                                    <li class="my-2"><span>Quarterback:</span></li>
-                                    <li class="my-2"><span>Entrenador:</span></li>
+                                    <li class="my-2"><span>Sede:</span><span class="nombreSede"></span></li>
+                                    <li class="my-2"><span>Estadio:</span><span class="nombreEstadio"></span></li>
+                                    <li class="my-2"><span>SuperBowls:</span><span class="numeroSuperbowls"></span></li>
+                                    <li class="my-2"><span>Quarterback:</span><span class="nombreQuarterback"></span></li>
+                                    <li class="my-2"><span>Entrenador:</span><span class="nombreEntrenador"></span></li>
                                 </ul>
 
                             </div>
-                            <div class="col-3 tabla text-center pt-3 pe-3">
+                            <div class="col-3 tabla text-center pt-3 pe-0">
 
                                 <table class="table table-warning text-center align-self-center">
                                     <thead>
@@ -422,22 +443,25 @@
                                     </thead>
                                     <tbody>
                                         <tr class="table-warning">
-                                            <th scope="row">2022</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                             <th scope="row">2022</th>
+                                            <td id="ultimavictoria" class="victorias2022">15</td>
+                                            <td class="derrotas2022">5</td>
+                                            <td class="empates2022">0</td>
                                         </tr>
                                         <tr class="table-dark">
                                             <th scope="row">2021</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2021">15</td>
+                                            <td class="derrotas2021">5</td>
+                                            <td class="empates2021">0</td>
                                         </tr>
                                         <tr class="table-secondary">
                                             <th scope="row">2020</th>
-                                            <td>15</td>
-                                            <td>5</td>
-                                            <td>0</td>
+                                            <td class="victorias2020">15</td>
+                                            <td class="derrotas2020">5</td>
+                                            <td class="empates2020">0</td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th class="favorito8" colspan="4" scope="row">FAVORITO</th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -451,7 +475,7 @@
 
 
     </main>
-    <footer class="container-fluid text-center">NFL SUPERBOWL 2023
+    <footer class="container-fluid text-center p-0">NFL SUPERBOWL 2023
 
         <div class="row me-0">
 
@@ -467,6 +491,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+    
 </body>
 
 </html>
