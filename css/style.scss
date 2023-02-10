@@ -11,7 +11,7 @@ $Chiefs:#a71930;
 $Cowboys:#cacccc;
 $Eagles:#004c54;
 $Jaguars:#9f792c;
-$SF49Ers:#241773;
+$SF49Ers:#7c0f0f;
 $Bengals:#d57d0a;
 
 
@@ -90,14 +90,21 @@ main{
     padding: 0px 5px;
 }
 
+
 .pt-2{
     list-style-type:square;
     
-  li {
+   .enunciado{
     text-decoration: underline;
     font-weight: bold;
+    } 
+    span[class^='nombre']{
+        padding-left: 20px;
+        font-weight: bold;
+        text-decoration: line-through;
+        color: $SF49Ers;
+    }
 } 
-}
 
 @each $color,$team in $equipos{
     ##{$team}{
